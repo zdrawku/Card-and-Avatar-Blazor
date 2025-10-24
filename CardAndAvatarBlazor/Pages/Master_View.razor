@@ -1,0 +1,35 @@
+@page "/master-view"
+@page "/"
+
+
+<div class="row-layout master-view-container">
+    <IgbCard class="card" master_view-scope>
+        <div class="group">
+            <IgbCardHeader>
+                <div slot="thumbnail">
+                    <IgbAvatar Shape="AvatarShape.Circle">
+                        <span class="material-icons">
+                            person
+                        </span>
+                    </IgbAvatar>
+                </div>
+                <h3 slot="title">
+                    Title goes here...
+                </h3>
+                <h5 slot="subtitle">
+                    Subtitle goes here...
+                </h5>
+            </IgbCardHeader>
+            <IgbCardContent class="body-content" master_view-scope>
+                <IgbAvatar Shape="AvatarShape.Circle">
+                    <span class="material-icons">
+                        people
+                    </span>
+                </IgbAvatar>
+            </IgbCardContent>
+        </div>
+    </IgbCard>
+</div>
+
+@code {
+}

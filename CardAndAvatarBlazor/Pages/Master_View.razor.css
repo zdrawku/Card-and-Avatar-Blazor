@@ -1,0 +1,24 @@
+.row-layout {
+    display: flex;
+}
+.master-view-container {
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    height: 100%;
+}
+.card {
+    width: 446px;
+    height: max-content;
+    min-width: 320px;
+    max-width: 446px;
+    flex-shrink: 0;
+    flex-direction: row;
+}
+.group {
+    flex-grow: 1;
+}
+.body-content {
+    min-width: 50px;
+    min-height: 50px;
+}
